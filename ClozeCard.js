@@ -1,5 +1,5 @@
 const cCard = (function() {  
-    const ClozeCard = function(text, cloze) {
+    let ClozeCard = function(text, cloze) {
         if (this instanceof ClozeCard) {
             this.fullText = text;
             this.cloze = cloze;
